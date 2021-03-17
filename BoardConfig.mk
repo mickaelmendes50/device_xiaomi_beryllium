@@ -25,6 +25,9 @@ BOARD_HAVE_QCOM_FM := true
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Gestures
+TAP_TO_WAKE_EVENT_NODE := "/dev/input/event2"
+
 # Kernel
 KERNEL_DEFCONFIG := ../beryllium_defconfig
 
